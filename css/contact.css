@@ -1,0 +1,126 @@
+
+/* ------------------------------------------------------------------------------- */
+.contact-main {
+    background: url('../img/contact/main-image-2.jpg') no-repeat center top;
+	/* background-size: cover; */
+	height: 100%;
+	min-height: 42vh;
+}
+.contact-main__conteiner {
+}
+
+@media (max-width: 450px) {
+    .contact-main {
+        display: none;
+    }
+}
+
+/* ------------------------------------------------------------------------------- */
+
+.contact-title {
+    padding: 128px 0px 87px 0px;
+}
+.contact-title__subtitle {
+   
+    
+}
+
+.contact-title__title {
+    
+   
+}
+
+
+/* ------------------------------------------------------------------------------- */
+
+.contact-items {
+}
+.contact-items__conteiner {
+}
+
+.contact-blocks {
+    display: flex;
+    justify-content: center;
+}
+.space {
+    width: 6px;
+}
+.contact-content {
+    padding: 0px 0px 86px 0px;
+}
+.contact-block {
+    width: 300px;
+    height: 300px;
+    background-color: #d3b000;
+    padding: 43px 0px 163px 32px;
+}
+.contact-block::before {
+    content: '';
+    position: absolute;
+    width: 31px;
+    height: 3px;
+    background: #fff;
+}
+
+.contact-block__item {
+    max-width: 250px;
+    font-size: 25px;
+    line-height: 1.28;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #fff
+}
+.contact-block__item:first-child {
+    margin-top: 46px;
+}
+.contact-img img{
+    width: 100%;
+}
+.contact-text {
+    width: 462px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+.contact-text p{
+    width: 360px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.6;
+    text-align: left;
+    color: #323d43;
+}
+.contact-block_black {
+    background-color: #212121;
+}
+.contact__button {
+    margin-top: 77px;
+}
+
+
+
+
+@media (max-width: 872px) {
+    .contact-blocks {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-block {
+        width: 100%;
+    }
+    .contact-text {
+        padding: 0px 10px;
+        width: 100%;
+    }
+    .contact-text p{
+        
+    }
+}
+@media (max-width: 396px) {
+    .contact-text p{
+        font-size: 18px;
+    }
+}
